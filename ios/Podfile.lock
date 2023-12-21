@@ -1,0 +1,303 @@
+PODS:
+  - Amplitude (8.16.1):
+    - AnalyticsConnector (~> 1.0.0)
+  - amplitude_flutter (0.0.1):
+    - Amplitude (= 8.16.1)
+    - Flutter
+  - AnalyticsConnector (1.0.3)
+  - apphud (2.3.2):
+    - ApphudSDK (= 2.8.8)
+    - Flutter
+  - ApphudSDK (2.8.8)
+  - battery_plus (1.0.0):
+    - Flutter
+  - device_info_plus (0.0.1):
+    - Flutter
+  - Firebase/Analytics (10.18.0):
+    - Firebase/Core
+  - Firebase/Core (10.18.0):
+    - Firebase/CoreOnly
+    - FirebaseAnalytics (~> 10.18.0)
+  - Firebase/CoreOnly (10.18.0):
+    - FirebaseCore (= 10.18.0)
+  - Firebase/RemoteConfig (10.18.0):
+    - Firebase/CoreOnly
+    - FirebaseRemoteConfig (~> 10.18.0)
+  - firebase_analytics (10.7.4):
+    - Firebase/Analytics (= 10.18.0)
+    - firebase_core
+    - Flutter
+  - firebase_core (2.24.2):
+    - Firebase/CoreOnly (= 10.18.0)
+    - Flutter
+  - firebase_remote_config (4.3.8):
+    - Firebase/RemoteConfig (= 10.18.0)
+    - firebase_core
+    - Flutter
+  - FirebaseABTesting (10.18.0):
+    - FirebaseCore (~> 10.0)
+  - FirebaseAnalytics (10.18.0):
+    - FirebaseAnalytics/AdIdSupport (= 10.18.0)
+    - FirebaseCore (~> 10.0)
+    - FirebaseInstallations (~> 10.0)
+    - GoogleUtilities/AppDelegateSwizzler (~> 7.11)
+    - GoogleUtilities/MethodSwizzler (~> 7.11)
+    - GoogleUtilities/Network (~> 7.11)
+    - "GoogleUtilities/NSData+zlib (~> 7.11)"
+    - nanopb (< 2.30910.0, >= 2.30908.0)
+  - FirebaseAnalytics/AdIdSupport (10.18.0):
+    - FirebaseCore (~> 10.0)
+    - FirebaseInstallations (~> 10.0)
+    - GoogleAppMeasurement (= 10.18.0)
+    - GoogleUtilities/AppDelegateSwizzler (~> 7.11)
+    - GoogleUtilities/MethodSwizzler (~> 7.11)
+    - GoogleUtilities/Network (~> 7.11)
+    - "GoogleUtilities/NSData+zlib (~> 7.11)"
+    - nanopb (< 2.30910.0, >= 2.30908.0)
+  - FirebaseCore (10.18.0):
+    - FirebaseCoreInternal (~> 10.0)
+    - GoogleUtilities/Environment (~> 7.12)
+    - GoogleUtilities/Logger (~> 7.12)
+  - FirebaseCoreInternal (10.18.0):
+    - "GoogleUtilities/NSData+zlib (~> 7.8)"
+  - FirebaseInstallations (10.18.0):
+    - FirebaseCore (~> 10.0)
+    - GoogleUtilities/Environment (~> 7.8)
+    - GoogleUtilities/UserDefaults (~> 7.8)
+    - PromisesObjC (~> 2.1)
+  - FirebaseRemoteConfig (10.18.0):
+    - FirebaseABTesting (~> 10.0)
+    - FirebaseCore (~> 10.0)
+    - FirebaseInstallations (~> 10.0)
+    - FirebaseSharedSwift (~> 10.0)
+    - GoogleUtilities/Environment (~> 7.8)
+    - "GoogleUtilities/NSData+zlib (~> 7.8)"
+  - FirebaseSharedSwift (10.18.0)
+  - Flutter (1.0.0)
+  - GoogleAppMeasurement (10.18.0):
+    - GoogleAppMeasurement/AdIdSupport (= 10.18.0)
+    - GoogleUtilities/AppDelegateSwizzler (~> 7.11)
+    - GoogleUtilities/MethodSwizzler (~> 7.11)
+    - GoogleUtilities/Network (~> 7.11)
+    - "GoogleUtilities/NSData+zlib (~> 7.11)"
+    - nanopb (< 2.30910.0, >= 2.30908.0)
+  - GoogleAppMeasurement/AdIdSupport (10.18.0):
+    - GoogleAppMeasurement/WithoutAdIdSupport (= 10.18.0)
+    - GoogleUtilities/AppDelegateSwizzler (~> 7.11)
+    - GoogleUtilities/MethodSwizzler (~> 7.11)
+    - GoogleUtilities/Network (~> 7.11)
+    - "GoogleUtilities/NSData+zlib (~> 7.11)"
+    - nanopb (< 2.30910.0, >= 2.30908.0)
+  - GoogleAppMeasurement/WithoutAdIdSupport (10.18.0):
+    - GoogleUtilities/AppDelegateSwizzler (~> 7.11)
+    - GoogleUtilities/MethodSwizzler (~> 7.11)
+    - GoogleUtilities/Network (~> 7.11)
+    - "GoogleUtilities/NSData+zlib (~> 7.11)"
+    - nanopb (< 2.30910.0, >= 2.30908.0)
+  - GoogleUtilities/AppDelegateSwizzler (7.12.0):
+    - GoogleUtilities/Environment
+    - GoogleUtilities/Logger
+    - GoogleUtilities/Network
+  - GoogleUtilities/Environment (7.12.0):
+    - PromisesObjC (< 3.0, >= 1.2)
+  - GoogleUtilities/Logger (7.12.0):
+    - GoogleUtilities/Environment
+  - GoogleUtilities/MethodSwizzler (7.12.0):
+    - GoogleUtilities/Logger
+  - GoogleUtilities/Network (7.12.0):
+    - GoogleUtilities/Logger
+    - "GoogleUtilities/NSData+zlib"
+    - GoogleUtilities/Reachability
+  - "GoogleUtilities/NSData+zlib (7.12.0)"
+  - GoogleUtilities/Reachability (7.12.0):
+    - GoogleUtilities/Logger
+  - GoogleUtilities/UserDefaults (7.12.0):
+    - GoogleUtilities/Logger
+  - image_picker_ios (0.0.1):
+    - Flutter
+  - in_app_review (0.2.0):
+    - Flutter
+  - isar_flutter_libs (1.0.0):
+    - Flutter
+  - nanopb (2.30909.1):
+    - nanopb/decode (= 2.30909.1)
+    - nanopb/encode (= 2.30909.1)
+  - nanopb/decode (2.30909.1)
+  - nanopb/encode (2.30909.1)
+  - onesignal_flutter (5.0.4):
+    - Flutter
+    - OneSignalXCFramework (= 5.0.4)
+  - OneSignalXCFramework (5.0.4):
+    - OneSignalXCFramework/OneSignalComplete (= 5.0.4)
+  - OneSignalXCFramework/OneSignal (5.0.4):
+    - OneSignalXCFramework/OneSignalCore
+    - OneSignalXCFramework/OneSignalExtension
+    - OneSignalXCFramework/OneSignalNotifications
+    - OneSignalXCFramework/OneSignalOSCore
+    - OneSignalXCFramework/OneSignalOutcomes
+    - OneSignalXCFramework/OneSignalUser
+  - OneSignalXCFramework/OneSignalComplete (5.0.4):
+    - OneSignalXCFramework/OneSignal
+    - OneSignalXCFramework/OneSignalInAppMessages
+    - OneSignalXCFramework/OneSignalLocation
+  - OneSignalXCFramework/OneSignalCore (5.0.4)
+  - OneSignalXCFramework/OneSignalExtension (5.0.4):
+    - OneSignalXCFramework/OneSignalCore
+    - OneSignalXCFramework/OneSignalOutcomes
+  - OneSignalXCFramework/OneSignalInAppMessages (5.0.4):
+    - OneSignalXCFramework/OneSignalCore
+    - OneSignalXCFramework/OneSignalNotifications
+    - OneSignalXCFramework/OneSignalOSCore
+    - OneSignalXCFramework/OneSignalOutcomes
+    - OneSignalXCFramework/OneSignalUser
+  - OneSignalXCFramework/OneSignalLocation (5.0.4):
+    - OneSignalXCFramework/OneSignalCore
+    - OneSignalXCFramework/OneSignalNotifications
+    - OneSignalXCFramework/OneSignalOSCore
+    - OneSignalXCFramework/OneSignalUser
+  - OneSignalXCFramework/OneSignalNotifications (5.0.4):
+    - OneSignalXCFramework/OneSignalCore
+    - OneSignalXCFramework/OneSignalExtension
+    - OneSignalXCFramework/OneSignalOutcomes
+  - OneSignalXCFramework/OneSignalOSCore (5.0.4):
+    - OneSignalXCFramework/OneSignalCore
+  - OneSignalXCFramework/OneSignalOutcomes (5.0.4):
+    - OneSignalXCFramework/OneSignalCore
+  - OneSignalXCFramework/OneSignalUser (5.0.4):
+    - OneSignalXCFramework/OneSignalCore
+    - OneSignalXCFramework/OneSignalNotifications
+    - OneSignalXCFramework/OneSignalOSCore
+    - OneSignalXCFramework/OneSignalOutcomes
+  - path_provider_foundation (0.0.1):
+    - Flutter
+    - FlutterMacOS
+  - permission_handler_apple (9.1.1):
+    - Flutter
+  - PromisesObjC (2.3.1)
+  - share_plus (0.0.1):
+    - Flutter
+  - shared_preferences_foundation (0.0.1):
+    - Flutter
+    - FlutterMacOS
+  - url_launcher_ios (0.0.1):
+    - Flutter
+  - webview_flutter_wkwebview (0.0.1):
+    - Flutter
+
+DEPENDENCIES:
+  - amplitude_flutter (from `.symlinks/plugins/amplitude_flutter/ios`)
+  - apphud (from `.symlinks/plugins/apphud/ios`)
+  - battery_plus (from `.symlinks/plugins/battery_plus/ios`)
+  - device_info_plus (from `.symlinks/plugins/device_info_plus/ios`)
+  - firebase_analytics (from `.symlinks/plugins/firebase_analytics/ios`)
+  - firebase_core (from `.symlinks/plugins/firebase_core/ios`)
+  - firebase_remote_config (from `.symlinks/plugins/firebase_remote_config/ios`)
+  - Flutter (from `Flutter`)
+  - image_picker_ios (from `.symlinks/plugins/image_picker_ios/ios`)
+  - in_app_review (from `.symlinks/plugins/in_app_review/ios`)
+  - isar_flutter_libs (from `.symlinks/plugins/isar_flutter_libs/ios`)
+  - onesignal_flutter (from `.symlinks/plugins/onesignal_flutter/ios`)
+  - OneSignalXCFramework (< 6.0, >= 5.0.0)
+  - path_provider_foundation (from `.symlinks/plugins/path_provider_foundation/darwin`)
+  - permission_handler_apple (from `.symlinks/plugins/permission_handler_apple/ios`)
+  - share_plus (from `.symlinks/plugins/share_plus/ios`)
+  - shared_preferences_foundation (from `.symlinks/plugins/shared_preferences_foundation/darwin`)
+  - url_launcher_ios (from `.symlinks/plugins/url_launcher_ios/ios`)
+  - webview_flutter_wkwebview (from `.symlinks/plugins/webview_flutter_wkwebview/ios`)
+
+SPEC REPOS:
+  trunk:
+    - Amplitude
+    - AnalyticsConnector
+    - ApphudSDK
+    - Firebase
+    - FirebaseABTesting
+    - FirebaseAnalytics
+    - FirebaseCore
+    - FirebaseCoreInternal
+    - FirebaseInstallations
+    - FirebaseRemoteConfig
+    - FirebaseSharedSwift
+    - GoogleAppMeasurement
+    - GoogleUtilities
+    - nanopb
+    - OneSignalXCFramework
+    - PromisesObjC
+
+EXTERNAL SOURCES:
+  amplitude_flutter:
+    :path: ".symlinks/plugins/amplitude_flutter/ios"
+  apphud:
+    :path: ".symlinks/plugins/apphud/ios"
+  battery_plus:
+    :path: ".symlinks/plugins/battery_plus/ios"
+  device_info_plus:
+    :path: ".symlinks/plugins/device_info_plus/ios"
+  firebase_analytics:
+    :path: ".symlinks/plugins/firebase_analytics/ios"
+  firebase_core:
+    :path: ".symlinks/plugins/firebase_core/ios"
+  firebase_remote_config:
+    :path: ".symlinks/plugins/firebase_remote_config/ios"
+  Flutter:
+    :path: Flutter
+  image_picker_ios:
+    :path: ".symlinks/plugins/image_picker_ios/ios"
+  in_app_review:
+    :path: ".symlinks/plugins/in_app_review/ios"
+  isar_flutter_libs:
+    :path: ".symlinks/plugins/isar_flutter_libs/ios"
+  onesignal_flutter:
+    :path: ".symlinks/plugins/onesignal_flutter/ios"
+  path_provider_foundation:
+    :path: ".symlinks/plugins/path_provider_foundation/darwin"
+  permission_handler_apple:
+    :path: ".symlinks/plugins/permission_handler_apple/ios"
+  share_plus:
+    :path: ".symlinks/plugins/share_plus/ios"
+  shared_preferences_foundation:
+    :path: ".symlinks/plugins/shared_preferences_foundation/darwin"
+  url_launcher_ios:
+    :path: ".symlinks/plugins/url_launcher_ios/ios"
+  webview_flutter_wkwebview:
+    :path: ".symlinks/plugins/webview_flutter_wkwebview/ios"
+
+SPEC CHECKSUMS:
+  Amplitude: fe18b3bbd880f2d9174b8109b79a77cd67687e2d
+  amplitude_flutter: 6216e64320d2dbe4e5be2764381d93280499211f
+  AnalyticsConnector: a53214d38ae22734c6266106c0492b37832633a9
+  apphud: 5ca6f25a0d8b9264a3f8a597f2d13f4a24941707
+  ApphudSDK: ef62166ff111404f1fa01a4cd4552d266b778565
+  battery_plus: 091633b7f01cb33dfc4aeedb450816f4d33818fa
+  device_info_plus: c6fb39579d0f423935b0c9ce7ee2f44b71b9fce6
+  Firebase: 414ad272f8d02dfbf12662a9d43f4bba9bec2a06
+  firebase_analytics: 88c111412070acc2b05c1734151f58824f3db657
+  firebase_core: 0af4a2b24f62071f9bf283691c0ee41556dcb3f5
+  firebase_remote_config: 14ad7a3c99810d373ba1ad4a754a8cf26c91d476
+  FirebaseABTesting: d8b10ff4c6d1a9d6b11f02a08463ad5fd9fc6b1b
+  FirebaseAnalytics: 4d310b35c48eaa4a058ddc04bdca6bdb5dc0fe80
+  FirebaseCore: 2322423314d92f946219c8791674d2f3345b598f
+  FirebaseCoreInternal: 8eb002e564b533bdcf1ba011f33f2b5c10e2ed4a
+  FirebaseInstallations: e842042ec6ac1fd2e37d7706363ebe7f662afea4
+  FirebaseRemoteConfig: bbd42790a4e84fde6aab7eae810b608e7b5c0bf6
+  FirebaseSharedSwift: 62e248642c0582324d0390706cadd314687c116b
+  Flutter: f04841e97a9d0b0a8025694d0796dd46242b2854
+  GoogleAppMeasurement: 70ce9aa438cff1cfb31ea3e660bcc67734cb716e
+  GoogleUtilities: 0759d1a57ebb953965c2dfe0ba4c82e95ccc2e34
+  image_picker_ios: 4a8aadfbb6dc30ad5141a2ce3832af9214a705b5
+  in_app_review: 318597b3a06c22bb46dc454d56828c85f444f99d
+  isar_flutter_libs: b69f437aeab9c521821c3f376198c4371fa21073
+  nanopb: d4d75c12cd1316f4a64e3c6963f879ecd4b5e0d5
+  onesignal_flutter: 2c2f01520fa953d93fad18162538cc98d6da009b
+  OneSignalXCFramework: 7e0a6d68dda7e80b03069bd145232f480f8c2279
+  path_provider_foundation: 29f094ae23ebbca9d3d0cec13889cd9060c0e943
+  permission_handler_apple: e76247795d700c14ea09e3a2d8855d41ee80a2e6
+  PromisesObjC: c50d2056b5253dadbd6c2bea79b0674bd5a52fa4
+  share_plus: c3fef564749587fc939ef86ffb283ceac0baf9f5
+  shared_preferences_foundation: 5b919d13b803cadd15ed2dc053125c68730e5126
+  url_launcher_ios: bf5ce03e0e2088bad9cc378ea97fa0ed5b49673b
+  webview_flutter_wkwebview: 2e2d318f21a5e036e2c3f26171342e95908bd60a
+
+PODFILE CHECKSUM: 27b3a1f8de95f34e8b528cc1d92df3eb1685d1b7
+
+COCOAPODS: 1.14.3
